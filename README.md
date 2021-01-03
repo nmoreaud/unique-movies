@@ -5,7 +5,7 @@ It doesn't call external services.
 
 ## Prerequisites
 Install python 3.4+ from python website.  
-This script is compatible with Linux, Windows or MacOS
+This script is compatible with Windows, MacOS and Linux.
 
 ## Usage
 Copy `unique-movies.py` somewhere on your computer (ex: in your movies root directory), then from a terminal, either:
@@ -18,7 +18,7 @@ To get a smaller list of duplicates, run the script like this:
   * `python unique-movies.py --onlytests 'name_sim'`
   * `python unique-movies.py --onlytests 'content'`
 
-Once the duplicate movies have been deleted, the movies list contains only false duplicates.  
+Once you have deleted the duplicates, the movies list contains only false duplicates.  
 You can then run `python unique-movies.py --ignore` to mark the remaining movies list as false positives.
 
 To delete movies, either proceed manually, or use the `todelete_files` variable of the script if you have many files to handle.
