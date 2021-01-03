@@ -22,3 +22,9 @@ Once the duplicate movies have been deleted, the movies list contains only false
 You can then run `python unique-movies.py --ignore` to mark the remaining movies list as false positives.
 
 To delete movies, either proceed manually, or use the `todelete_files` variable of the script if you have many files to handle.
+
+## How it works
+
+The script computes a simplified name for each movie to remove "keyword polution".
+You can check if the simplified names are correct with `python unique-movies.py --printnames`.
+You can choose new keywords to blacklist with `python unique-movies.py --printtokens`.
