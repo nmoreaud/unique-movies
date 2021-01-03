@@ -1,7 +1,7 @@
 # Unique Movies
-Find and remove duplicated movies from your database.
-This script search for movies with names that look alike or similar binary content.
-It doesn't call external services or decode images.
+Find and remove duplicated movies from your database.  
+This script search for movies with names that look alike or similar binary content.  
+It doesn't call external services.
 
 ## Prerequisites
 Install python 3.4+ from python website
