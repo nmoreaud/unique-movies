@@ -1,6 +1,6 @@
 # Unique Movies
 Find and remove duplicated movies from your database.  
-This script search for movies with names that look alike or similar binary content.  
+This script searches for movies with names that look alike or similar binary content.  
 It doesn't call external services.
 
 ## Prerequisites
