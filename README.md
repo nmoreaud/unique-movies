@@ -28,3 +28,10 @@ To delete movies, either proceed manually, or use the `todelete_files` variable 
 The script computes a simplified name for each movie to remove "keyword polution".  
 You can check if the simplified names are correct with `python unique-movies.py --printnames`.  
 You can choose new keywords to blacklist with `python unique-movies.py --printtokens`.
+
+## Contribute
+
+If you want to contribute, pick a task in this todolist : 
+* Graphical user interface with Tkinter (or another library generaly packaged with python)
+* Decode video parts and compare them
+* Merge 2 movie databases without copying the duplicates.
