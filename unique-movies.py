@@ -392,7 +392,7 @@ def main():
     global all_files
 
     cliargs = getcliargs()
-    main_path = cliargs.directory
+    main_path = Path(cliargs.directory)
     ignorelist_path = main_path.joinpath('ignorelist.json')
 
     delete_files(todelete_files)
