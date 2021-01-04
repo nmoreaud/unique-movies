@@ -35,9 +35,9 @@ If you want to contribute, pick a task in this todolist :
 * Graphical user interface with Tkinter (or another library generaly packaged with python) in which you can :
   * delete duplicates (with a confirm button)
   * mark false positives
-  * simplify file names (with 
+  * simplify file names
   * edit rules (blacklist keywords, ignore subdirectory, ignore some file names, etc)
-  * launch two movies side by side to compare them (ex VLC
+  * launch two movies side by side to compare them (ex VLC)
 * Merge 2 movie databases without copying the duplicates
 * Decode video parts and compare them
 * Blacklist keywords depending on the locale
